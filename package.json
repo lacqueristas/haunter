@@ -1,0 +1,50 @@
+{
+  "name": "haunter",
+  "version": "1.0.0",
+  "description": "An integration testing container",
+  "homepage": "https://github.com/lacqueristas/haunter#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lacqueristas/haunter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lacqueristas/haunter/issues"
+  },
+  "keywords": [
+    "integration-testing"
+  ],
+  "author": "Kurtis Rainbolt-Greene <kurtis@rainbolt-greene.online>",
+  "license": "ISC",
+  "scripts": {
+    "watch": "chokidar './source/' --ignore '/node_modules/' --command 'npm run test --silent'",
+    "test": "babel-tap './source/**/index.js'"
+  },
+  "dependencies": {
+    "@google-cloud/storage": "0.8.0",
+    "babel-cli": "6.24.0",
+    "babel-eslint": "7.2.1",
+    "babel-plugin-transform-object-rest-spread": "6.23.0",
+    "babel-plugin-transform-runtime": "6.23.0",
+    "babel-preset-env": "1.2.2",
+    "babel-tap": "5.0.0",
+    "bunyan": "1.8.9",
+    "chakram": "1.5.0",
+    "chance": "1.0.6",
+    "chokidar-cli": "1.2.0",
+    "eslint": "3.18.0",
+    "eslint-plugin-babel": "4.1.1",
+    "eslint-plugin-immutable": "1.0.0",
+    "eslint-plugin-import": "2.2.0",
+    "eslint-plugin-promise": "3.5.0",
+    "greenkeeper": "4.2.1",
+    "httpstatuses": "3.0.0",
+    "knex": "0.12.9",
+    "nightmare": "2.10.0",
+    "npm-run-all": "4.0.2",
+    "pg": "6.1.5",
+    "ramda": "0.23.0",
+    "ramda-extra": "4.0.1",
+    "require-environment-variables": "1.1.2",
+    "tap": "10.3.1"
+  }
+}
