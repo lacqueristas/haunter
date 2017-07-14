@@ -36,14 +36,12 @@
     "eslint-plugin-immutable": "1.0.0",
     "eslint-plugin-import": "2.2.0",
     "eslint-plugin-promise": "3.5.0",
-    "greenkeeper": "4.2.1",
     "httpstatuses": "3.0.0",
     "knex": "0.12.9",
     "nightmare": "2.10.0",
     "npm-run-all": "4.0.2",
     "pg": "6.1.5",
     "ramda": "0.23.0",
-    "ramda-extra": "4.0.1",
     "require-environment-variables": "1.1.2",
     "tap": "10.3.1"
   }
